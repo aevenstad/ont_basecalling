@@ -15,6 +15,7 @@ process DOROADO_BASECALL {
     --emit-fastq \\
     --device cuda:0 \\
     --kit-name ${params.barcode_kit} \\
+    --no-trim \\
     ${pod5} | \\
     gzip > ${params.sample_id}_basecalled.fastq.gz
 
