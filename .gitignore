@@ -1,5 +1,8 @@
 
 .nextflow/
-test/
+test_data/
+test_out/
+.nextflow*
+work/
 
 
